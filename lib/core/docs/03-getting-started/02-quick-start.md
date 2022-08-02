@@ -33,7 +33,7 @@ use `Util::ResourcesBuilder` to create resources and relationships from a struct
 
 [//]: # (TODO: Fix refereces)
 
-> ledgers. Please visit [the Reference]('/') to learn about resource attributes.
+> ledgers. Please visit [the Reference](/netsuite/soap) to learn about resource attributes.
 ```ruby
 resource = LedgerSync::QuickBooksOnline::Customer.new(
   DisplayName: 'Sample Customer',
