@@ -1,0 +1,9 @@
+{
+  "label": "Resources",
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Resources",
+    "description": "Netsuite SOAP data contract references."
+  }
+}
