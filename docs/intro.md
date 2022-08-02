@@ -2,46 +2,45 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to LedgerSync
 
-Let's discover **Docusaurus in less than 5 minutes**.
+An open-source library for easily syncing with accounting software, general ledgers, ERPs, and other ledgers.
 
-## Getting Started
+[![Build Status](https://travis-ci.org/LedgerSync/ledger_sync.svg?branch=master)](https://travis-ci.org/LedgerSync/ledger_sync)
+[![Gem Version](https://badge.fury.io/rb/ledger_sync.svg)](https://badge.fury.io/rb/ledger_sync)
+[![Coverage Status](https://coveralls.io/repos/github/LedgerSync/ledger_sync/badge.svg?branch=master)](https://coveralls.io/github/LedgerSync/ledger_sync?branch=master)
 
-Get started by **creating a new site**.
+## Join the Conversation
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+[Click here](https://join.slack.com/t/ledger-sync/shared_invite/zt-e5nbl8qc-eOA~5k7bg3p16_l3J7OS~Q) to join our public
+Slack group.
 
-### What you'll need
+# Installation
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Add this line to your application’s Gemfile:
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```
+gem 'ledger_sync'
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+And then execute:
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+```shell
+bundle
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Or install it yourself as:
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+```shell
+gem install ledger_sync
+```
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Getting started
+
+[//]: # (TODO: Update to local)
+Visit the [Quick Start Guide](https://www.ledgersync.dev/guides/getting-started/quick-start) to perform your first operation.
+
+## License
+
+The gem is available as open source under the terms of the licenses detailed
+in [`LICENSE.txt`](https://github.com/LedgerSync/ledger_sync/blob/master/LICENSE.txt).
