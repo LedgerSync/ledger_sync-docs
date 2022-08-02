@@ -30,8 +30,8 @@ export default function Home(): JSX.Element {
 	const {siteConfig} = useDocusaurusContext();
 	return (
 			<Layout
-					title={`Hello from ${siteConfig.title}`}
-					description="Description will go into a meta tag in <head />">
+					title={`${siteConfig.title}`}
+					description="The Reference gives you detailed information about each ledger, operation, and resource. The Reference will help you know what attributes are required for which operations. View Reference. Contribute Want to help build LedgerSync? Check out our guidelines and resources for extending LedgerSync to new legders, resources, and more.">
 				<HomepageHeader/>
 				<main>
 					<HomepageFeatures/>
