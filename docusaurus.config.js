@@ -3,11 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
-
-const socialConfigs = {
-  slack: 'https://join.slack.com/t/ledger-sync/shared_invite/zt-e5nbl8qc-eOA~5k7bg3p16_l3J7OS~Q',
-  github: 'https://github.com/LedgerSync/ledger_sync'
-}
+const socialConfigs = require('./src/common').socialConfigs
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
