@@ -64,8 +64,8 @@ const config = {
         path: 'lib/netsuite/docs',
         routeBasePath: 'netsuite',
         sidebarPath: require.resolve('./lib/netsuite/sidebars.js')
-      },
-    ],
+      }
+    ]
   ],
 
   themeConfig:
@@ -85,6 +85,25 @@ const config = {
             label: 'Guides'
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'dropdown',
+            label: 'References',
+            position: 'right',
+            items: [
+              {
+                type: 'doc',
+                docsPluginId: 'netsuite',
+                label: 'Netsuite SOAP',
+                docId: 'soap/README'
+              },
+              {
+                type: 'doc',
+                docsPluginId: 'netsuite',
+                label: 'Netsuite REST',
+                docId: 'rest/README'
+              }
+            ]
+          },
           {
             href: socialConfigs.github,
             label: 'GitHub',
