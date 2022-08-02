@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Searchers
 
 Searchers are used to lookup and scan objects in the ledger. A searcher takes a `client`, _query_ string and

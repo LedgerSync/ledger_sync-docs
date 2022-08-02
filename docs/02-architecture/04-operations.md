@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Operations
 
 Each ledger defines operations that can be performed on specific resources (e.g. `Customer::Operations::Update`

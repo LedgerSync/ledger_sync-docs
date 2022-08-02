@@ -1,10 +1,6 @@
----
-sidebar_position: 3
----
-
 # Serializers
 
-Serializers take a [Resource](resources.md) and output a hash. For example:
+Serializers take a [Resource](02-resources.md) and output a hash. For example:
 
 ```ruby
 customer = LedgerSync::NetSuite::Customer.new(

@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Welcome to LedgerSync
 
 An open-source library for easily syncing with accounting software, general ledgers, ERPs, and other ledgers.
