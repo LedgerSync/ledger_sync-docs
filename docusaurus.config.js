@@ -4,6 +4,11 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
+const socialConfigs = {
+  slack: 'https://join.slack.com/t/ledger-sync/shared_invite/zt-e5nbl8qc-eOA~5k7bg3p16_l3J7OS~Q',
+  github: 'https://github.com/LedgerSync/ledger_sync'
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LedgerSync',
@@ -57,7 +62,7 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'LedgerSync',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg'
@@ -67,11 +72,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial'
+            label: 'Guides'
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: socialConfigs.github,
             label: 'GitHub',
             position: 'right'
           }
@@ -84,7 +89,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Guides',
                 to: '/docs/intro'
               }
             ]
@@ -93,16 +98,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus'
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus'
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus'
+                label: 'Slack',
+                href: socialConfigs.slack
               }
             ]
           },
@@ -115,12 +112,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus'
+                href: socialConfigs.github
               }
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+        copyright: `© Modern Treasury Inc. All rights reserved.`
       },
       prism: {
         theme: lightCodeTheme,
