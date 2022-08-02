@@ -1,0 +1,9 @@
+{
+  "label": "Architecture",
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Architecture",
+    "description": "LedgerSync consists of the following high-level objects:"
+  }
+}
