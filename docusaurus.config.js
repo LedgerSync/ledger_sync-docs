@@ -56,6 +56,17 @@ const config = {
       })
     ]
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'netsuite',
+        path: 'lib/netsuite/docs',
+        routeBasePath: 'netsuite',
+        sidebarPath: require.resolve('./lib/netsuite/sidebars.js')
+      },
+    ],
+  ],
 
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
