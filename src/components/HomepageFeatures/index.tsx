@@ -10,35 +10,45 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+      title: 'Guides',
+      Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+      description: (
+          <>
+              Check out our Quick Start guide to start syncing. You can also view other detailed guides for various use
+              cases, ledgers, customizability, and more.
+              <hr/>
+              <a href={'/docs/getting-started'}>Get Started</a>
+          </>
+      ),
   },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+    {
+        title: 'Reference',
+        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        description: (
+            <>
+                The Reference gives you detailed information about each ledger, operation, and resource. The Reference
+                will help you know what attributes are required for which operations.
+                <hr/>
+                <a href={'/'}>
+                    View Reference
+                </a>
+            </>
+        ),
+    },
+    {
+        title: 'Contribute',
+        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        description: (
+            <>
+                Want to help build LedgerSync? Check out our guidelines and resources for extending LedgerSync to new
+                legders, resources, and more.
+                <hr/>
+                <a href={'/docs/contribute'}>
+                    Learn More
+                </a>
+            </>
+        ),
+    },
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {

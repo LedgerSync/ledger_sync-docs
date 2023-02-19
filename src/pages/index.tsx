@@ -16,9 +16,9 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+              className="button button--secondary button--lg"
+              to="/docs/getting-started/">
+              Get Started
           </Link>
         </div>
       </div>
@@ -27,15 +27,13 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+      <Layout
+          description="An open-source library for easily syncing with accounting software, general ledgers, ERPs, and other ledgers">
+          <HomepageHeader/>
+          <main>
+              <HomepageFeatures/>
+          </main>
+      </Layout>
   );
 }
